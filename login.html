@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="LL logo 2.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --brown: #564135;
+            --light_brown: #726255;
+            --green: #DAE3C1;
+            --btn_green: #789C63;
+            --card_green: #89C180;
+            --active_green: #C1E2BE;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md" style="background-color: var(--brown);">
+        <div class="container nbar">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="LL logo 2.png" alt="Logo" width="50px" class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="CollapsibleNavbar">
+                <ul class="navbar-nav col-8 col-lg-9 col-xl-10 ">
+                    <li class="nav-item">
+                        <a class="nav-link nav-texts" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texts" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-texts" role="button" data-bs-toggle="dropdown">Modules</a>
+                        <ul class="dropdown-menu drop">
+                            <li><a href="teens.html" class="dropdown-item nav-texts">Teens</a></li>
+                            <li><a href="health.html" class="dropdown-item nav-texts">Health Diets</a></li>
+                            <li><a href="fitness.html" class="dropdown-item nav-texts">Fitness Diets</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="sources.html" class="dropdown-item nav-texts">Sources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texts" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav col-4 col-lg-3 col-xl-2">
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link navtext nav-texts" target="_blank">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link navtext nav-texts" target="_blank" style="color: var(--active_green);">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar -->
+    <!-- Log In -->
+    <div class="container-fluid" style="background-image: url(signup-bg.jpg);">
+        <div class="container py-5">
+            <p class="display-3 pb-3 bold-title">Log In</p>
+            <p>Log in to your account to regain your member identity and your privileges back.</p>
+            <!-- Sign In Box -->
+            <div class="row justify-content-center pt-4">
+                <div class="col-lg-4 col-md-5 col-sm-7 col-8 regis-now p-4">
+                    <p class="display-6 bold-title text-center">Sign In</p>
+                    <form class="px-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Amy Aims">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-12">
+                                <label for="username" class="form-label">Email</label>
+                                <input type="mail" class="form-control" placeholder="example@gmail.com">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col">
+                                <label for="username" class="form-label">Password</label>
+                                <input type="text" class="form-control" minlength="6" placeholder="123456">
+                            </div>
+                        </div>
+                        <div class="row pt-4 float-end">
+                            <div class="col">
+                                <a href="welcome-mssg.html"><button type="submit" class="btn green-btn w-100">Submit</button></a>
+                                <p class="pt-1" style="font-size: 10px"><b>Haven't registered yet? <a class="text-dark" href="signup.html" target="_blank">Sign Up</a></b></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Log In -->
+</body>
+</html>

@@ -1,0 +1,321 @@
+:root {
+    --brown: #564135;
+    --light_brown: #726255;
+    --green: #DAE3C1;
+    --btn_green: #789C63;
+    --card_green: #89C180;
+    --active_green: #C1E2BE;
+}
+.article-bg{
+    background-color: #FFF6E8;
+}
+.article-shadow{
+    box-shadow: 0px 2px 8px 0px rgb(0, 0, 0);
+}
+.article-yes-btn{
+    color: green;
+    border: 1px solid green;
+}
+.article-yes-btn:hover{
+    color: darkgreen;
+    border: 1px solid darkgreen;
+}
+.article-no-btn{
+    color: red;
+    border: 1px solid red;
+}
+.article-no-btn:hover{
+    color: darkred;
+    border: 1px solid darkred;
+}
+.form-control{
+    box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.3);
+}
+.similar-cards{
+    background-color: rgb(180, 209, 175);
+    box-shadow: 0px 0px 5px 0px rgba(22, 32, 21, 0.5);
+}
+.recipe-btn{
+    background-color: var(--brown);
+    color: white;
+}
+.recipe-btn:hover{
+    border: 1px solid var(--brown);
+    color: var(--brown);
+}
+/* Navbar */
+.nav-texts{
+    color: ghostwhite;
+}
+.nav-texts:hover{
+    color: var(--active_green);
+    background-color: var(--brown);
+}
+.drop{
+    background-color: var(--brown);
+}
+
+/* Footer Starts*/
+.footer_hr{
+    width: 65%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+.footer_text{
+    font-size: 20px;
+}
+.f-icons{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.footer_br {
+    margin: 6px;
+    display: block;
+    font-size: 24%;
+}
+.brs {
+    margin: 6px;
+    display: block;
+    font-size: 24%;
+}
+.footer_link{
+    text-decoration: none;
+    color: white;
+}
+.footer_btn{
+    background-color: #423026;
+    color: white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.footer_btn:hover{
+    border: 1px solid #423026;
+    color: #423026;
+}
+.footer_email::placeholder{
+    color: white;
+}
+.footer_email:active,
+.footer_email:focus,
+.footer_email:focus:active{
+    background-color: #564338;
+    color: white;
+}
+.footer_email{
+    background-color: #564338;
+    border: none;
+    border-bottom-left-radius: 0px;
+}
+.footer_link:hover{
+    color: #423026;
+}
+.footer_icons{
+    font-size: 25px;
+    transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+.footer_icons:hover{
+    transform: rotate(360deg);
+    color: var(--green);
+}
+@media screen and (max-width: 575px) {
+    .footer_logo{
+        display: none;
+    }
+}
+/* Footer Ends*/
+
+/* Home */
+.carousel-caption {
+    position: absolute;
+    top: 100px;
+ }
+.green-btn{
+    padding: 5px 25px;
+    background-color: var(--btn_green);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+}
+.green-btn:hover{
+    color: var(--brown);
+    border: 1px solid var(--brown);
+}
+.teens-sec{
+    box-shadow: 2px 0px 39px 0px rgba(22, 32, 21, 0.25) inset;
+}
+.transparent{
+    background-color: transparent;
+}
+.bold-title{
+    font-weight: 600;
+}
+.card-transparent, .home-diets-card{
+    border: none;
+}
+@media screen and (max-width: 768px) {
+    .display-img-none, .diets-img{
+        display: none;
+    }
+    .card-transparent{
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+    .home-diets-card{
+        background-color: rgba(24, 50, 20, 0.1);
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .home-health-btn, .home-fitness-btn{
+        float: right;
+    }
+}
+
+/* Sign Up */
+.regis-now{
+    background-color: rgb(43, 92, 43, 0.5);
+    border-radius: 15px;
+    box-shadow:  0px 0px 10px 0px rgba(22, 32, 21, 0.75) inset;
+}
+.regis-pills{
+    color: grey;
+}
+.regis-pills:hover{
+    color: black;
+}
+.regis-pills:focus{
+    background-color: var(--brown);
+}
+.payment{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+.signup-btn{
+    background-color: var(--brown);
+}
+.nav-pills > li > a.active {
+    background-color: var(--brown) !important;
+}
+/* About */
+.font-small{
+    font-size: small;
+}
+.about-card{
+    background-color: rgb(180, 209, 175);
+    box-shadow: 0px 0px 15px 0px rgba(22, 32, 21, 0.5);
+}
+.card-border{
+    border-radius: 15px;
+}
+.profile-img{
+    border: 5px solid var(--brown);
+}
+@media screen and (max-width: 768px) {
+    .card-order{
+        order: 1;
+    }
+    .card-order2{
+        order: 2;
+    }
+}
+/* Articles */
+@media screen and (max-width: 768px) {
+    .img-order{
+        order: 1;
+    }
+    .img-order2{
+        order: 2;
+    }
+}
+/* Fitness Diets*/
+.fitness-diet-text{
+    padding: 10px;
+    background-color: #789C63;
+    font-weight: bold;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 2px 4px 0px black;
+    color: black;
+}
+.fitness-diet-card{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.fitness-diet-card:hover{
+    transform: scale(1.05);
+}
+/* Health Diets */
+.health-card-img{
+    border: 3px solid var(--brown);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0) inset;
+}
+.health-diet-text{
+    padding: 10px;
+    background-color: #ABBB80;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color: black;
+    box-shadow: 2px 0px 8px 0px black;
+    height: 100%;
+}
+.health-btn{
+    background-color: #486239;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: white;
+    padding: 2% 10%;
+}
+.health-btn:hover{
+    border: 1px solid black;
+    color: black;
+}
+.health-card{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+.health-card:hover{
+    transform: scale(1.05);
+}
+/* Sources */ 
+.sources-cards{
+    background-color: #DDE9BC;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25) inset;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.sources-cards:hover{
+    transform: scale(1.05);
+}
+.sources-btn{
+    background-color: #678F50;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+.sources-btn:hover{
+    border: 1px solid var(--brown);
+    color: var(--brown);
+}
+.reference-card{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 5%;
+}
+@media screen and (max-width: 685px) {
+    .reference-card{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}

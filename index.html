@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="LL logo 2.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --brown: #564135;
+            --light_brown: #726255;
+            --green: #DAE3C1;
+            --btn_green: #789C63;
+            --card_green: #89C180;
+            --active_green: #C1E2BE;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md" style="background-color: var(--brown);">
+        <div class="container nbar">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="LL logo 2.png" alt="Logo" width="50px" class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="CollapsibleNavbar">
+                <ul class="navbar-nav col-8 col-lg-9 col-xl-10 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: var(--active_green);">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texts" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-texts" role="button" data-bs-toggle="dropdown">Modules</a>
+                        <ul class="dropdown-menu drop">
+                            <li><a href="teens.html" class="dropdown-item nav-texts">Teens</a></li>
+                            <li><a href="health.html" class="dropdown-item nav-texts">Health Diets</a></li>
+                            <li><a href="fitness.html" class="dropdown-item nav-texts">Fitness Diets</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="sources.html" class="dropdown-item nav-texts">Sources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texts" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav col-4 col-lg-3 col-xl-2">
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link navtext nav-texts" target="_blank">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link navtext nav-texts" target="_blank">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar -->
+
+    <!-- Carousel Section -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active rounded-circle carousel-button" style="height: 15px; width: 15px;"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="rounded-circle carousel-button" style="height: 15px; width: 15px;"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="rounded-circle carousel-button" style="height: 15px; width: 15px;"></button>
+        </div>
+
+        <!-- The slideshow/carousel-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Carousal-1.jpg" alt="carousel-1" class="d-block w-100" height="500">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <p class="display-1"><b>Lafiya Levitra</b></p>
+                                <p style="font-size: large;">If you are looking for an informative website about healthy tips for your children or yourself, this website might be helpful for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Carousal-2.jpg" alt="carousel-2" class="d-block w-100" height="500">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <p class="display-1"><b>Lafiya Levitra</b></p>
+                                <p style="font-size: large;">Not only information about health, but also instructive knowledge of teenagers are inserted here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Carousel-3.jpg" alt="carousel-3" class="d-block w-100" height="500">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <p class="display-1"><b>Lafiya Levitra</b></p>
+                                <p style="font-size: large;">Just take a bit time and learn things to make better decisions for your health conditions or problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Carousel Section -->
+
+    <!-- Teens Section -->
+    <div class="container-fluid teens-sec" style="background-color: var(--green);">
+        <div class="container d-flex align-items-center py-5">
+            <div class="row">
+                <!-- Illustration -->
+                <div class="col-md-5 text-center">
+                    <div class="display-img-none w-100">
+                        <img src="home-teens-ill.png" alt="" class="img-fluid" style="width: 300px;">
+                    </div>
+                </div>
+                <!-- Text -->
+                <div class="col">
+                    <div class="card text-center transparent card-transparent">
+                        <div class="card-body">
+                            <p class="card-title display-4 pb-3 bold-title">Teenagers</p>
+                            <p class="card-text">Read insightful information about teenagers. Learn about their behaviors, thoughts, and lifestyles. Gain a better understanding of the challenges that commonly faced by teenagers and receive tips and expert advice to help teenagers lead happier and healthier lives.</p>
+                            <p class="card-text">Our collection of articles on teenagers include 'Tips for Adolescents’ Overall Welfare', 'Teenager's Rebellious Phrase', 'Teenager's Rebellious Phrase', and 'Common Diseases for Teens and the Recovery'.</p>
+                            <a href="teens.html"><button type="button" class="btn green-btn mt-3">More About Teens</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Teens Section -->
+
+    <!-- Diets Section -->
+    <div class="container-fluid" style="background-image: url(diets-bg-img.jpg);">
+        <div class="container p-5">
+            <!-- Main Text -->
+            <div class="row">
+                <div class="col">
+                    <p class="display-4 bold-title">Diets</p>
+                    <p>Diet is an essential thing for people especially for teenagers or younger generation to keep healthy or fit. Check and learn more about how having good diets is going to benefit people with health conditions or weight-management and look into  many different kinds of diets for different people so that you can choose your favorite diet and live everyday with happiness and joy.</p>
+                </div>
+            </div>
+            <!-- Health Diets -->
+            <div class="row pt-3">
+                <div class="col-md-5 text-center">
+                    <div class="diets-img">
+                        <img src="home-health-ill.png" alt="" class="img-fluid" style="width: 300px;">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card transparent home-diets-card">
+                        <div class="card-body">
+                            <p class="card-title text-center display-5 pb-3 bold-title">Health Diets</p>
+                            <p class="card-text text-right">For younger generations who would like to improve their physical or mental well-being by following healthy diets which provide proper ways of eating and living styles, read more information about the specific details and types of diets concerning with health in our website.</p>
+                            <a href="health.html"><button type="button" class="btn green-btn mt-3 float-end">Learn More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fitness Diets -->
+            <div class="row pt-4">
+                <div class="col">
+                    <div class="card transparent home-diets-card">
+                        <div class="card-body">
+                            <p class="card-title text-center display-5 pb-3 bold-title">Fitness Diets</p>
+                            <p class="card-text text-right">Fitness is also a something most of the younger generations have to pay attention about. Learn more facts with us about different kinds of fitness diet, importance of it and what advantages you can get by doing them.</p>
+                            <a href="fitness.html"><button type="button" class="btn green-btn mt-3 home-fitness-btn">Learn More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="diets-img">
+                        <img src="home-fitness-ill.png" alt="" class="img-fluid" style="width: 300px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Diets Section -->
+
+    <!-- About Section -->
+    <div class="container-fluid" style="background-color: var(--green);">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="display-4 bold-title">Our Team</p>
+                    <p class="pt-3 px-5">Discover our story and meet the team behind the scenes. Find out who we are, our goal, and how we were inspired to provide valuable health and fitness information. </p>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5">
+                <div class="col-sm-4 col-xs-8 col-10 pb-3">
+                    <img src="nano-img.jpeg" alt="Nano" class="img-fluid">
+                    <h5>Nano Cho</h5>
+                </div>
+                <div class="col-sm-4 col-xs-8 col-10 pb-3">
+                    <img src="pwarpwar-img" alt="Pwar Pwar" class="img-fluid">
+                    <h5>Pwar Shwe Ou Maung</h5>
+                </div>
+                <div class="col-sm-4 col-xs-8 col-10 pb-3">
+                    <img src="lawun-img.png" alt="La Wun" class="img-fluid">
+                    <h5>La Wun May</h5>
+                </div>
+            </div>
+            <div class="row text-center pt-4">
+                <div class="col">
+                    <a href="about.html"><button type="button" class="btn green-btn mt-3">About Us</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: var(--light_brown);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-sm-6 col-8 text-white p-3">
+                    <h1>Stay in touch</h1>
+                    <div class="footer_hr"></div>
+                    <p class="footer_text">For more updates</p>
+                    <form>
+                        <div class="col-xl-7 col-lg-8 col-md-12 col-sm-10 col-9">
+                            <div class="mb-2">
+                                <input type="text" class="form-control footer_email" placeholder="example@gmail.com">
+
+                                <button type="button" class="btn input-group-text footer_btn">Subscribe</butto>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-6 col-8 text-white p-3">
+                    <h1>Contact us</h1>
+                    <div class="footer_hr"></div>
+                    <p class="footer_text">Contact Information</p>
+                    <i class="fa-solid fa-location-dot f-icons"></i> Yangon, Myanmar
+                    <br class="footer_br">
+                    <i class="fa-solid fa-phone f-icons"></i>+95 924 366571
+                    <br class="footer_br">
+                    <i class="fa-solid fa-envelope f-icons"></i> lafiya.lavitra@gmail.com
+                </div>
+                <div class="col-md-3 col-sm-6 col-8 text-white p-3">
+                    <h1>Sitemap</h1>
+                    <div class="footer_hr"></div>
+                    <div class="row">
+                        <div class="col-4">
+                            <br class="brs">
+                            <a href="index.html" class="footer_link">Home</a>
+                            <br class="brs">
+                            <a href="about.html" class="footer_link">About</a>
+                            <br class="brs">
+                            <a href="sources.html" class="footer_link">Sources</a>
+                        </div>
+                        <div class="col-8">
+                            <br class="brs">
+                            <a href="teens.html" class="footer_link">Teens</a>
+                            <br class="brs">
+                            <a href="health.html" class="footer_link">Health Diets</a>
+                            <br class="brs">
+                            <a href="fitness.html" class="footer_link">Fitness Diets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: var(--brown);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-1 col-sm-2">
+                    <a href="index.html"><img src="LL logo 2.png" alt="Logo" width="50px" class="rounded-circle footer_logo"></a>
+                </div>
+                <div class="col-md-8 col-sm-5 col-6">
+                    <p class="mt-3 text-white" style="font-size: 12px;"> 2023 <i class="far fa-copyright"></i> All rights reserved.</p>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <a target="_blank" href="https://www.twitter.com/" class="text-light"><i class="fa-brands fa-twitter footer_icons" style="padding-left: 25px;"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/" class="text-light"><i class="fa-brands fa-facebook footer_icons" style="padding-left: 25px;"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/" class="text-light"><i class="fa-brands fa-instagram footer_icons" style="padding-left: 25px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+</body>
+</html>
