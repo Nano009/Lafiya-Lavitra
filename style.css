@@ -6,6 +6,16 @@
     --card_green: #89C180;
     --active_green: #C1E2BE;
 }
+body{
+    font-family: serif;
+}
+.font-style{
+    font-size: 17px;
+    text-align: justify;
+}
+.font-size{
+    font-size: 17px;
+}
 .article-bg{
     background-color: #FFF6E8;
 }
@@ -43,9 +53,19 @@
     border: 1px solid var(--brown);
     color: var(--brown);
 }
+.glow{
+    text-shadow: 0 0 20px #fff, 0 0 30px darkolivegreen, 0 0 40px darkolivegreen, 0 0 50px darkolivegreen, 0 0 60px darkolivegreen, 0 0 70px darkolivegreen;
+}
+.glow-2{
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(83, 135, 93), 0 0 40px rgb(83, 135, 93), 0 0 50px rgb(83, 135, 93), 0 0 60px rgb(83, 135, 93), 0 0 70px rgb(83, 135, 93);
+}
+.glow-3{
+    text-shadow: 0 0 20px #fff, 0 0 30px grey, 0 0 40px grey, 0 0 50px grey, 0 0 60px grey, 0 0 70px grey;
+}
 /* Navbar */
 .nav-texts{
     color: ghostwhite;
+    font-size: 18px;
 }
 .nav-texts:hover{
     color: var(--active_green);
@@ -56,6 +76,16 @@
 }
 
 /* Footer Starts*/
+@media screen and (max-width: 991px) {
+    .footer{
+        font-size: 12.5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 15px;
+    }
+}
 .footer_hr{
     width: 65%;
     height: 3px;
@@ -137,6 +167,7 @@
     color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+    font-size: 18px;
 }
 .green-btn:hover{
     color: var(--brown);
