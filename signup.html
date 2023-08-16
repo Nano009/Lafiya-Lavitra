@@ -76,31 +76,41 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 col-10 regis-now p-4">
                     <p class="display-6 bold-title text-center">Register Now</p>
-                    <form>
+                    <form class="was-validated">
                         <div class="row">
                             <div class="col-sm-6 col-12">
                                 <label for="username" class="form-label">Username</label>
-                                <input type="text" class="form-control" id="username" placeholder="Amy Aims">
+                                <input type="text" class="form-control" id="username" placeholder="Amy Aims" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback"></div>
                             </div>
                             <div class="col">
                                 <label for="disname" class="form-label">Display Name</label>
-                                <input type="text" class="form-control" id="displayname" minlength="3" placeholder="Amy">
+                                <input type="text" class="form-control" id="displayname" minlength="3" placeholder="Amy" required>
+                                <div class="valid-feedback"></div>
+                                <div class="invalid-feedback"></div>
                             </div>
                         </div>
                         <div class="row pt-3">
                             <div class="col-sm-6 col-12">
                                 <label for="username" class="form-label">Email</label>
-                                <input type="mail" class="form-control" placeholder="example@gmail.com">
+                                <input type="mail" class="form-control" placeholder="example@gmail.com" required>
+                                <div class="valid-feedback"></div>
+                                <div class="invalid-feedback"></div>
                             </div>
                             <div class="col">
                                 <label for="username" class="form-label">Password</label>
-                                <input type="text" class="form-control" minlength="6" placeholder="123456">
+                                <input type="text" class="form-control" minlength="6" placeholder="123456" required>
+                                <div class="valid-feedback"></div>
+                                <div class="invalid-feedback"></div>
                             </div>
                         </div>
                         <div class="row pt-3">
                             <div class="col-sm-6 col-12">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                                <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                                <div class="valid-feedback"></div>
+                                <div class="invalid-feedback"></div>
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -122,17 +132,23 @@
                                         <div class="row pt-3">
                                             <div class="col">
                                                 <label for="cardnum" class="form-label">Card Number</label>
-                                                <input type="text" class="form-control"pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1111-2222-3333">
+                                                <input type="text" class="form-control"pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1111-2222-3333" required>
+                                                <div class="valid-feedback"></div>
+                                                <div class="invalid-feedback"></div>
                                             </div>
                                         </div>
                                         <div class="row pt-3">
                                             <div class="col-sm-6 col-12">
                                                 <label for="exdate" class="form-label">Expiry Date</label>
-                                                <input type="date" class="form-control">
+                                                <input type="date" class="form-control"required>
+                                                <div class="valid-feedback"></div>
+                                                <div class="invalid-feedback"></div>
                                             </div>
                                             <div class="col">
                                                 <label for="seccode" class="form-label">Security Code</label>
-                                                <input type="text" class="form-control" maxlength="3" minlength="3" placeholder="123">
+                                                <input type="text" class="form-control" maxlength="3" minlength="3" placeholder="123" required>
+                                                <div class="valid-feedback"></div>
+                                                <div class="invalid-feedback"></div>
                                             </div>
                                         </div>
                                     </div>
